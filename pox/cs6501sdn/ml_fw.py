@@ -133,14 +133,10 @@ class CS6501SDN_MLFW(object):
   
         # There can be multiple ways. 
 
-        # Hint for one way. 
-        #  - "of.OFPP_ALL" is a reserved name for sending the packet to every switchport.
-        #  - Well, we don't what that. Anything else?
-
-        # Hint for another way.
+        # Hint for one way.
         #  - Search for black hole (networking). Wikipedia has a good explanation.
 
-        # Hint for yet another way
+        # Hint for another way
         #  - What does it mean you say the switch matches on a packet but takes *no* action on the packet?
   
         ##### YOUR CODE HERE 2 - END   #####
