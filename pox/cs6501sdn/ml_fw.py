@@ -51,7 +51,7 @@ class CS6501SDN_MLFW(object):
     self.mac_to_port = {}
 
     # Load ML model
-    self.model = joblib.load("~/Work/pox/pox/cs6501sdn/mlfw_model.model")
+    self.model = joblib.load("/home/sdn/Work/pox/pox/cs6501sdn/mlfw_model.model")
 
 
   def resend_packet (self, packet_in, out_port):
